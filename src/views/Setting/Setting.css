@@ -1,0 +1,41 @@
+#Setting{
+	position:absolute;
+	top:0;
+	bottom:0;
+	width:100%;
+	font-size:.14rem;
+	background: #fff;
+}
+#Setting header{
+	width:100%;
+	height:.5rem;
+	background:#f4f4f4;
+	position:relative;
+}
+#Setting header i{
+	position:absolute;
+	font-size:.25rem;
+	left:.1rem;
+	top:.1rem
+}
+#Setting header p{
+	width:100%;
+	height:100%;
+	line-height:.5rem;
+	text-align:center;
+	font-size:.2rem;
+}
+#Setting button{
+	width:2.5rem;
+	height:.5rem;
+	border:0;
+	border-radius:.25rem;
+	background:#fc4141;;
+	color:#fff;
+	font-size:.2rem;
+	position: fixed;
+	bottom:2rem;
+	left:50%;
+	margin-left:-1.25rem;
+
+}

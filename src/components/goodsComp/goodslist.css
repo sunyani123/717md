@@ -1,0 +1,47 @@
+.goods-list-wrap dl {
+    width: 49%;
+    height: 2.8rem;
+    float: left;
+    margin-bottom: .04rem;
+    margin-right: 1%;
+    background: #ffffff;
+}
+.goods-list-wrap dl dt{
+	width: 100%;
+	height:2rem;
+    background: #ffffff;
+}
+.goods-list-wrap img{
+	width: 100%;
+	height:2rem;
+    background: #ffffff;
+}
+.goods-list-wrap dd{
+	width: 100%;
+    margin-top: .09rem;
+}
+.goods-list-wrap dl dd p:nth-child(1) {
+    font-size: 0.14rem;
+    line-height: 0.35rem;
+    height: .35rem;
+    margin-left: 0.1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.goods-list-wrap dl dd p:nth-child(2) {
+    position: relative;
+    margin-left: 0.1rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.goods-list-wrap dl dd p:nth-child(2) span:nth-child(1){
+	color: #fc4141;
+}
+.goods-list-wrap dl dd p:nth-child(2) span:nth-child(2){
+	width: 0.35rem;
+    height: 0.35rem;
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+    top: -.08rem;
+}

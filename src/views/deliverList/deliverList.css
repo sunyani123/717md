@@ -1,0 +1,21 @@
+.deliverList{
+	position:absolute;
+	top:0;
+	bottom:0;
+	width:100%;
+	font-size:.14rem;
+	background:#fff;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+.deliverList header{
+	height:.45rem
+}
+.deliverList section{
+	flex:1;
+	overflow-y:scroll;
+}
+.deliverList button{
+	height:.5rem;
+	border:0;
+}

@@ -1,0 +1,50 @@
+#register{
+    position:absolute;
+    width:100%;
+    top:0;
+    bottom:0;
+    background:skyblue;
+    font-size:.14rem;
+}
+#register h1{
+    text-align:center;
+    font-size:.2rem;
+    font-weight:normal;
+    margin:.2rem 0 .3rem;
+}
+#register p{
+    height:.3rem;
+    padding:0 .1rem;
+    display:-webkit-flex;
+    margin-bottom:.2rem;
+}
+#register input{
+    flex:1;
+    margin:0 auto;
+    border:0;
+    outline: none;
+}
+#register p span{
+    width:.6rem;
+    height:100%;
+    line-height:.3rem;
+    display:inline-block;
+    text-align: left;
+    font-size:.16rem;
+}
+#register h2{
+    width:100%;
+    height:.5rem;
+    display:-webkit-flex;
+    justify-content:center;
+    margin-top:.5rem;
+}
+#register button{
+    width:2rem;
+    height:100%;
+    background:#0f6000;
+    border:0;
+    outline: none;
+    color:#fff;
+    font-size:.18rem;
+}

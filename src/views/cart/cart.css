@@ -1,0 +1,148 @@
+#cart{
+	position:absolute;
+	top:0;
+	bottom:0;
+	width:100%;
+	font-size:.14rem;
+	background:#fff;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+#cart header{
+	width:100%;
+	height:.5rem;
+	background:#fafafb;
+	position:relative;
+}
+#cart header i{
+	position:absolute;
+	font-size:.3rem;
+	left:.1rem;
+	top:.08rem;
+}
+#cart header p{
+	width:100%;
+	height:.5rem;
+	line-height:.5rem;
+	text-align:center;
+	font-size:.2rem;
+}
+#cart header span{
+	font-size:.2rem;
+	position:absolute;
+	top:.06rem;
+	right:.05rem;
+	background:#fafafb;
+}
+#cart .goods_list{
+	flex:1;
+	overflow-y:scroll; 
+}
+#cart .goods_list ul li{
+	width:100%;
+	height:1.5rem;
+	margin-top:.1rem;
+}
+#cart .goods_list ul li{
+	display:-webkit-flex;
+}
+.iconspn{
+	width:.3rem;
+	margin-left:.1rem;
+	margin-right:.1rem;
+}
+.iconspn span{
+	display:inline-block;
+	font-size:.3rem;
+	margin-top:.5rem;
+	border-radius:.15rem;
+	text-align:center;
+	line-height:.3rem;
+}
+.imgspn{
+	width:1.2rem;
+}
+.imgspn span{
+	display:inline-block;
+	width:1.2rem;
+	height:1.2rem;
+	margin-top:.05rem;
+}
+.imgspn img{
+	width:100%;
+	height:100%;
+}
+.right-cart{
+	flex:1;
+	margin-left:.1rem;
+}
+.cartnum{
+	display:-webkit-flex;
+}
+.right-cart .ptag{
+	height:.6rem;
+	font-size:.16rem;
+}
+.right-cart .ptag p{
+	overflow:hidden;
+	
+}
+.cart-left{
+	flex:2;
+	text-align:left;
+}
+.cart-left p{
+	line-height: .3rem;
+	font-weight:700;
+}
+.cart-left p:nth-child(2){
+	color:#fc4141;
+}
+.cart-right{
+	flex:3;
+	margin-top:.2rem;
+}
+.cart-right span{
+	display:inline-block;
+	padding:.1rem .15rem;
+	border:1px solid #ccc;
+}
+footer{
+	height:.5rem;
+	background:#f4f4f4;
+	display:-webkit-flex;
+}
+footer .iconfont{
+	font-size:.25rem;
+}
+.footer-left,{
+	flex:3;
+}
+.footer-center{
+	flex:6;
+	text-align:right;
+	line-height: .5rem;
+	margin-right:.1rem;
+}
+.footer-left .iconfont{
+    position:relative;
+    left:.1rem;
+    top:.02rem;
+    font-size:.25rem;
+}
+.footer-left span:nth-child(2){
+	line-height:.5rem;
+	margin-left:.2rem;
+}
+.footer-center .pricespn{
+	font-weight:none;
+	color:#fd6565;
+	font-size:.18rem;
+}
+.footer-right{
+	flex:4;
+	border:0;
+	background: #fc4141;
+	color:#fff;
+	font-size:.2rem;
+}
