@@ -6,8 +6,6 @@ import {getCookie} from '../../utils/utils'
 console.log(getCookie('token'));
 import {connect} from 'react-redux'
 import {ADD_CART} from '../../store/reducer'
-import {open} from '../notify'
-console.log(open);
 class PlaceholderComponent extends Component{
     render(){
         return <img src={require('../../static/img/1.jpg')}/>
@@ -30,8 +28,7 @@ class GoodsItem extends Component{
             })
             .then((res)=>{
                 if(res==1){
-                   
-                    open('dvfdgfh')
+                    openNotify('从法国高等工程的出场时的')
                     this.props.dispatch({
                         type:ADD_CART,
                         data:{

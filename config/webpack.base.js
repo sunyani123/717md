@@ -2,7 +2,9 @@ let path=require('path');
 let dir=process.cwd()
 let baseConfig={//commonjs规范
     entry:{
-        "bundle":dir+'/src/main'
+        "bundle":dir+'/src/main',
+        "bundledva":dir+'/src/dva',
+        "bundles":dir+'/srcs/main'
     },
     output:{
         "path":dir+'/dist',

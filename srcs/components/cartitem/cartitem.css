@@ -1,0 +1,29 @@
+.cartitem{
+	width:100%;
+	height:1.5rem;
+	margin-top:.1rem;
+	margin-bottom:.1rem;
+	background:#f2f2f2;
+	display:-webkit-flex;
+
+}
+.wrap-left{
+	flex:4;
+}
+.wrap-left span{
+	width:.15rem;
+	height:.15rem;
+	display:inline-block;
+	border-radius:50%;
+	border:1px solid #ccc;
+}
+p{
+	line-height:.3rem;
+}
+p button{
+	padding:.05rem .1rem;
+}
+.wrap-left
+.wrap-right{
+	flex:6;
+}

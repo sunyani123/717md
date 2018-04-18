@@ -68,13 +68,14 @@ class Home extends Component{
                     })
                 }
             </div>
-            <Notify container={'#index .content'}></Notify>
+            <Notify ref="notify" container={'#index .content'}></Notify>
         </div>
         </div>
      </div>)
     }
     
     componentDidMount(){
+        window.openNotify=this.refs.notify
         $http.post('/mail/index/getGoodsChannel',{channel_id:this.state.channel_id})
         .then(res=>{
             let datas=JSON.parse(res).data.data;

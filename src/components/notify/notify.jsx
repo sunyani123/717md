@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import ReactDOM from 'react-dom'
-class Notify extends Component{
+export class Notify extends Component{
 	constructor(){
 		super()
 		this.openNotify=this.openNotify.bind(this)
@@ -29,10 +29,11 @@ class Notify extends Component{
 	render(){
 		let {isOpen}=this.state
 		return isOpen?(<div id="notify" style={this.contentStyle}>
-			<div>sdfdgdfhfg</div>
+			<div>这是一个提示组建</div>
 		</div>):null
 	}
 }
+
 function callback(fn){
 	open(fn)
 }
@@ -48,7 +49,11 @@ class NotifyPortals extends Component{
 			renderTo:document.body
 		}
 	}
-	
+	mountNotify(){
+		this.setState({
+			isMounted:true
+		})
+	}
 	render(){
 		let {isMounted,renderTo,isOpen}=this.state
 		document.body.style={

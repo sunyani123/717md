@@ -1,0 +1,20 @@
+.Cart{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.goodsItem{
+	position:absolute;
+	width:100%;
+	top:0;
+	bottom:.5rem;
+	overflow-y:scroll;
+}
+.Cart .footerItem{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:.5rem;
+}
